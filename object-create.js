@@ -15,5 +15,14 @@ class People {
     }
 }
 const peop = new People('Manush', 23)
-console.log(peop)
+// console.log(peop)
 
+//5 function
+/* you can crate an Object using function
+    that call 'Synthetic sugar'
+*/
+function Manush(name) {
+    this.name = name;
+}
+const man = new Manush('kader');
+console.log(man)
