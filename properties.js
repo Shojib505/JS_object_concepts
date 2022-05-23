@@ -15,6 +15,7 @@ const values = Object.values(bottole);
 const pairs = Object.entries(bottole)
 // console.log(pairs);
 
+
 Object.seal(bottole)
 /* if you seal any Obj then 
 -you can't dete any proiperty or value
